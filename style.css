@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 5%;
+}
+
+/* =========Start Header======== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    gap: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon{
+    display: flex;
+    gap: 30px;
+}
+
+.bi-search{
+    color: #00BFC4;
+}
+
+.bi-filter-square{
+    color: #00788A;
+}
+
+.hr{
+    color: #74DCDF;
+}
+
+/* =========Header End========== */
+
+/* =========Start Hero========== */
+
+.hero{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.hero h6{
+    color: #00BFC4;
+}
+
+.hero h1{
+    padding: 50px 0;
+    font-size: 100px;
+    color: #00788A;
+}
+
+.hero .btn{
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00BFC4;
+}
+
+.hero a{
+    color: #43808C;
+}
+
+.hero hr{
+    width: 40px;
+    margin: auto;
+    color: #00BFC4;
+}
+
+/* =========Hero End============ */
